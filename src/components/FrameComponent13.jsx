@@ -1,6 +1,36 @@
+import { useState } from 'react';
 import styles from "./FrameComponent13.module.css";
 
 const FrameComponent13 = () => {
+  const [email, setEmail] = useState('');
+
+  const handleSubmit = async (event) => {
+    event.preventDefault(); // Prevents the default form submission behavior
+    // Send the email to the server
+    try {
+      const response = await fetch('your-server-url', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email }),
+      });
+      if (response.ok) {
+        // Handle success
+        console.log('Email sent successfully');
+      } else {
+        // Handle error
+        console.error('Failed to send email');
+      }
+    } catch (error) {
+      console.error('Error sending email:', error);
+    }
+  };
+
+  const handleChange = (event) => {
+    setEmail(event.target.value);
+  };
+
   return (
     <div className={styles.outputAggregatorInner}>
       <div className={styles.frameParent}>
@@ -17,15 +47,19 @@ const FrameComponent13 = () => {
             </div>
             <div className={styles.triangleShapeParent}>
               <div className={styles.triangleShape}>
-                <input
-                  className={styles.enterYourEmail}
-                  placeholder="Enter your Email"
-                  type="text"
-                />
+                <form onSubmit={handleSubmit}>
+                  <input
+                    className={styles.enterYourEmail}
+                    placeholder="Enter your Email"
+                    type="email"
+                    value={email}
+                    onChange={handleChange}
+                  />
+                  <button type="submit" className={styles.triangleShape1}>
+                    <div className={styles.letsTalk}>Lets Talk</div>
+                  </button>
+                </form>
               </div>
-              <button className={styles.triangleShape1}>
-                <div className={styles.letsTalk}>Lets Talk</div>
-              </button>
             </div>
           </div>
         </div>
