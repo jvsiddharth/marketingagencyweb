@@ -14,6 +14,17 @@
   width: 40.4px;
   position: relative;
 }
+.embrace {
+  height: 32px;
+  position: relative;
+  letter-spacing: -2px;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 108px;
+  white-space: nowrap;
+  font-family: var(--font-source-sans-pro);
+  font-size: var(--font-size-9xl-2);
+}
 .usersNumberInputChild {
   align-self: stretch;
   height: 33.1px;

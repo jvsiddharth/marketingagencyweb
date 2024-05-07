@@ -8,12 +8,7 @@ const Header = () => {
         <div className={styles.logo}>
           <div className={styles.frameParent}>
             <div className={styles.usersNumberInput}>
-              <img
-                className={styles.usersNumberInputChild}
-                loading="lazy"
-                alt=""
-                src="/"
-              />
+            <a href="/" className={styles.embrace}>Marketing Hub</a>
             </div>
           </div>
         </div>

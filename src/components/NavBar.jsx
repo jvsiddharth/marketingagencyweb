@@ -24,7 +24,7 @@ const NavBar = () => {
         </div>
       </div>
       <a href="/book-a-call" className={styles.ctaButton}>
-        <div className={styles.bookACall}>Book a call</div>
+        <div className={styles.bookACall}>Contact Us</div>
       </a>
     </header>
   );

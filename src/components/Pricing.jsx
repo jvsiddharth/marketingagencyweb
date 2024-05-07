@@ -8,7 +8,7 @@ const Pricing = () => {
     <div className={styles.pricingV4}>
       <main className={styles.headerParent}>
         <Header />
-        <section className={styles.frameWrapper}>
+          <section className={styles.frameWrapper}>
           <div className={styles.frameParent}>
             <div className={styles.frameContainer}>
               <div className={styles.checkmarkShapeParent}>

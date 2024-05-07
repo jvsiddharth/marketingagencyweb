@@ -1,0 +1,41 @@
+.fullName {
+  position: relative;
+  line-height: 120%;
+}
+.componentChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.fullNameParent {
+  align-self: stretch;
+  height: 78px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--h2-size);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}
+@media screen and (max-width: 850px) {
+  .fullName {
+    font-size: var(--font-size-7xl);
+    line-height: 31px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .fullName {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+  .fullNameParent {
+    gap: var(--gap-xl);
+  }
+}

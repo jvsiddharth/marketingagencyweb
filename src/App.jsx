@@ -5,7 +5,7 @@ import HowItWorks from "./components/HowItWorks"; // Make sure to replace "./pat
 import OurWork from "./pages/PxPortfolioTemplate";
 import AboutUs from "./pages/PxAboutPage";
 import Pricing from "./components/Pricing";
-
+import ContactUs from "./pages/ContactUs1";
 
 function App() {
   const location = useLocation();
@@ -53,6 +53,7 @@ function App() {
       <Route path="/our-work" element={<OurWork />} />
       <Route path="/pricing" element={<Pricing />} />
       <Route path="/about-us" element={<AboutUs />} />
+      <Route path="/book-a-call" element={<ContactUs />} />
     </Routes>
   );
 }

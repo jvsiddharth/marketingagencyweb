@@ -22,13 +22,13 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
-    "vite": "^5.2.3"
+    "vite": "^5.2.11"
   },
   "scripts": {
-    "start": "vite --host 0.0.0.0",
+    "start": "vite --host",
     "build": "vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview --host 0.0.0.0"
+    "preview": "vite preview --host"
   },
   "eslintConfig": {
     "root": true
@@ -45,5 +45,4 @@
       "last 1 safari version"
     ]
   }
-  
 }

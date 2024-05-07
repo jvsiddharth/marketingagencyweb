@@ -1,0 +1,259 @@
+.unsplashtyandmpxwhcIcon {
+  width: 550px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.contactUs1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.contactUs2 {
+  position: relative;
+  font-size: var(--headings-typography-size-3-size);
+  line-height: 29px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--neutral-100);
+  text-align: left;
+}
+.contactUsWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xl) var(--padding-xl);
+  background-color: var(--color-black);
+  width: 374px;
+  border-radius: var(--br-29xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.contactUsWrapper:hover {
+  background-color: #333;
+}
+.componentParent,
+.instanceParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.instanceParent {
+  align-self: stretch;
+  gap: var(--gap-45xl);
+}
+.componentParent {
+  margin: 0;
+  width: 400px;
+  gap: var(--gap-61xl);
+  min-width: 400px;
+}
+.contact,
+.higreencom {
+  position: relative;
+  line-height: 120%;
+}
+.higreencom {
+  white-space: nowrap;
+}
+.contactParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.basedIn {
+  position: relative;
+  line-height: 120%;
+}
+.california,
+.losAngeles {
+  margin: 0;
+}
+.losAngelesCaliforniaContainer {
+  position: relative;
+  line-height: 120%;
+}
+.basedInParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-104xl);
+  gap: var(--gap-5xs);
+}
+.facebookNegative,
+.instagramNegative,
+.twitterNegative {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 48px;
+}
+.facebookNegativeParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameGroup {
+  width: 272px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-53xl);
+  min-width: 272px;
+}
+.frameParent,
+.frameWrapper {
+  flex-direction: row;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  font-size: var(--h2-size);
+  font-family: var(--font-montserrat);
+}
+.contactUs,
+.contactUsInner,
+.contactUsParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactUsParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-77xl);
+  max-width: 100%;
+}
+.contactUs,
+.contactUsInner {
+  box-sizing: border-box;
+}
+.contactUsInner {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-18xl) 0 0;
+  min-width: 598px;
+  max-width: 100%;
+}
+.contactUs {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-linen);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-99xl) var(--padding-130xl) var(--padding-103xl);
+  gap: var(--gap-133xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-93xl);
+  color: var(--color-black);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 1525px) {
+  .unsplashtyandmpxwhcIcon {
+    flex: 1;
+  }
+  .contactUs {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .contactUsParent {
+    gap: var(--gap-29xl);
+  }
+  .contactUsInner {
+    min-width: 100%;
+  }
+  .contactUs {
+    gap: var(--gap-57xl);
+    padding-left: var(--padding-55xl);
+    padding-right: var(--padding-55xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .contactUs1 {
+    font-size: var(--font-size-37xl);
+    line-height: 81px;
+  }
+  .componentParent {
+    flex: 1;
+    min-width: 100%;
+  }
+  .basedIn,
+  .contact,
+  .higreencom,
+  .losAngelesCaliforniaContainer {
+    font-size: var(--font-size-7xl);
+    line-height: 31px;
+  }
+  .frameGroup {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .contactUs {
+    gap: var(--gap-19xl);
+    padding-left: var(--padding-18xl);
+    padding-right: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .contactUs1 {
+    font-size: var(--font-size-15xl);
+    line-height: 54px;
+  }
+  .instanceParent {
+    gap: var(--gap-13xl);
+  }
+  .componentParent {
+    gap: var(--gap-21xl);
+  }
+  .basedIn,
+  .contact,
+  .higreencom,
+  .losAngelesCaliforniaContainer {
+    font-size: var(--font-size-lgi);
+    line-height: 23px;
+  }
+  .frameGroup {
+    gap: var(--gap-17xl);
+  }
+  .contactUsParent {
+    gap: var(--gap-5xl);
+  }
+}
