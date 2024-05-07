@@ -1,0 +1,179 @@
+.companiesWeWork {
+  margin: 0;
+  height: 49px;
+  width: 481px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.companiesWeWorkWithWrapper {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.companyLogoIcon,
+.companyLogoIcon1,
+.companyLogoIcon2,
+.companyLogoIcon3,
+.companyLogoIcon4 {
+  align-self: stretch;
+  width: 140px;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 48px;
+}
+.companyLogoIcon1,
+.companyLogoIcon2,
+.companyLogoIcon3,
+.companyLogoIcon4 {
+  width: 113px;
+}
+.companyLogoIcon2,
+.companyLogoIcon3,
+.companyLogoIcon4 {
+  width: 72px;
+}
+.companyLogoIcon3,
+.companyLogoIcon4 {
+  width: 164px;
+}
+.companyLogoIcon4 {
+  width: 127px;
+}
+.companyLogoParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.companyLogoIcon5,
+.companyLogoIcon6,
+.companyLogoIcon7,
+.companyLogoIcon8,
+.companyLogoIcon9 {
+  align-self: stretch;
+  width: 164px;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 48px;
+}
+.companyLogoIcon6,
+.companyLogoIcon7,
+.companyLogoIcon8,
+.companyLogoIcon9 {
+  width: 133px;
+}
+.companyLogoIcon7,
+.companyLogoIcon8,
+.companyLogoIcon9 {
+  width: 143px;
+}
+.companyLogoIcon8,
+.companyLogoIcon9 {
+  width: 110px;
+}
+.companyLogoIcon9 {
+  width: 127px;
+}
+.companyLogoGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frameParent,
+.partners,
+.partnersWrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1200px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-75xl);
+}
+.partners,
+.partnersWrapper {
+  box-sizing: border-box;
+}
+.partners {
+  flex: 1;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-59xl) var(--padding-xl) var(--padding-116xl);
+  gap: var(--gap-81xl);
+}
+.partnersWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-118xl);
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-aboreto);
+}
+@media screen and (max-width: 1250px) {
+  .frameParent {
+    gap: var(--gap-28xl);
+  }
+}
+@media screen and (max-width: 1100px) {
+  .companyLogoGroup {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  .companiesWeWork {
+    font-size: var(--font-size-10xl);
+  }
+  .companyLogoParent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .frameParent {
+    gap: var(--gap-4xl);
+  }
+  .partners {
+    gap: var(--gap-31xl);
+    padding-top: var(--padding-32xl);
+    padding-bottom: var(--padding-69xl);
+    box-sizing: border-box;
+  }
+  .partnersWrapper {
+    padding-bottom: var(--padding-70xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .companiesWeWork {
+    font-size: var(--font-size-3xl);
+  }
+  .partners {
+    gap: var(--gap-6xl);
+  }
+}

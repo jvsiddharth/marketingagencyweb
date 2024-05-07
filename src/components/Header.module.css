@@ -1,0 +1,119 @@
+.headerChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--neutral-100);
+}
+.frameChild {
+  height: 40.4px;
+  width: 40.4px;
+  position: relative;
+}
+.usersNumberInputChild {
+  align-self: stretch;
+  height: 33.1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.usersNumberInput {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs-3);
+}
+.frameParent {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-base-2);
+  flex-shrink: 0;
+}
+.frameParent,
+.logo,
+.logoWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.logo {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-12xs-2) 0;
+  z-index: 1;
+}
+.logoWrapper {
+  width: 304.4px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+}
+.buttonText {
+  position: relative;
+  font-size: var(--text-single-200-regular-size);
+  line-height: 20px;
+  font-family: var(--text-single-100-regular);
+  color: var(--neutral-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 88px;
+}
+.groupIcon {
+  height: 13.5px;
+  width: 10.6px;
+  position: relative;
+  display: none;
+}
+.header,
+.primaryBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.primaryBtn {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-21xl) var(--padding-2xl);
+  background-color: var(--primary-color-1);
+  box-shadow: 0 3px 12px rgba(74, 58, 255, 0.18);
+  border-radius: var(--br-37xl);
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  white-space: nowrap;
+  z-index: 1;
+}
+.primaryBtn:hover {
+  background-color: var(--color-mediumslateblue-300);
+}
+.header {
+  align-self: stretch;
+  justify-content: center;
+  padding: var(--padding-13xl) var(--padding-xl) var(--padding-14xl-4);
+  position: relative;
+  gap: var(--gap-748xl-2);
+  flex-shrink: 0;
+}
+@media screen and (max-width: 1200px) {
+  .header {
+    gap: var(--gap-365xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .header {
+    gap: var(--gap-173xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .header {
+    gap: var(--gap-77xl);
+  }
+}

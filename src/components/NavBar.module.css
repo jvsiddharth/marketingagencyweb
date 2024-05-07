@@ -1,0 +1,181 @@
+.frameChild {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-mediumslateblue-200);
+  width: 19px;
+  height: 19px;
+  font-family: var(--font-aboreto)
+}
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 18px;
+  border-radius: var(--br-12xs);
+  width: 18px;
+  height: 21px;
+  object-fit: contain;
+  z-index: 1;
+}
+.ellipseParent {
+  width: 36px;
+  height: 21px;
+  position: relative;
+}
+.constantHolder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+}
+.embrace {
+  height: 32px;
+  position: relative;
+  letter-spacing: -2px;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 108px;
+  white-space: nowrap;
+}
+.functionCaller,
+.loopIterator {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.loopIterator {
+  flex-direction: column;
+  padding: var(--padding-3xs) 0 0;
+}
+a:link, a:visited {
+  text-decoration: none;
+  color: inherit; /* Inherit the color from the parent element */
+}
+.howItWorks {
+  min-width: 98px;
+  white-space: nowrap;
+}
+.aboutUs,
+.howItWorks,
+.ourWork,
+.pricing {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+}
+.ourWork {
+  min-width: 70px;
+  white-space: nowrap;
+}
+.aboutUs,
+.pricing {
+  min-width: 52px;
+}
+.aboutUs {
+  min-width: 70px;
+  white-space: nowrap;
+}
+.howItWorksParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+/* Remove underline for links */
+.howItWorks, .ourWork, .pricing, .aboutUs, .embrace {
+  text-decoration: none;
+}
+
+/* Add glow effect on hover */
+.howItWorks:hover, .ourWork:hover, .pricing:hover, .aboutUs:hover, .embrace:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+.bookACall,
+.navbarInner {
+  font-size: var(--font-size-base);
+  font-family: var(--font-aboreto);
+}
+.navbarInner {
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.bookACall {
+  position: relative;
+  line-height: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 85px;
+}
+.ctaButton,
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.ctaButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-5xl);
+  background-color: var(--color-mediumslateblue-200);
+  border-radius: var(--br-51xl);
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.ctaButton:hover {
+  background-color: var(--color-royalblue);
+}
+.navbar {
+  align-self: stretch;
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-lg) var(--padding-xl) var(--padding-base)
+    var(--padding-2xl);
+  gap: var(--gap-238xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-9xl-2);
+  color: var(--color-black);
+  font-family: var(--font-source-sans-pro);
+}
+@media screen and (max-width: 1250px) {
+  .navbar {
+    gap: var(--gap-109xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .howItWorksParent {
+    display: none;
+  }
+  .navbarInner {
+    width: 0;
+  }
+  .navbar {
+    gap: var(--gap-45xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .navbar {
+    gap: var(--gap-13xl);
+  }
+}

@@ -1,0 +1,61 @@
+.imagePlaceholderIcon {
+  width: 130px;
+  height: 130px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.mainTitle,
+.thisIsA {
+  align-self: stretch;
+  position: relative;
+}
+.mainTitle {
+  margin: 0;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.thisIsA {
+  font-size: var(--body-text-size);
+  line-height: 27px;
+}
+.headlineSubhead,
+.skill,
+.skill1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.headlineSubhead {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-lgi);
+}
+.skill,
+.skill1 {
+  align-items: center;
+}
+.skill1 {
+  align-self: stretch;
+  gap: var(--gap-37xl);
+}
+.skill {
+  width: 249.9px;
+  text-align: center;
+  font-size: var(--h3-size);
+  color: var(--black);
+  font-family: var(--body-text);
+}
+@media screen and (max-width: 450px) {
+  .mainTitle {
+    font-size: var(--font-size-3xl);
+    line-height: 34px;
+  }
+  .skill,
+  .skill1 {
+    gap: var(--gap-9xl);
+  }
+}

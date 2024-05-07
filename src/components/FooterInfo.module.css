@@ -1,0 +1,221 @@
+.letsWorkTogether,
+.thisIsA {
+  align-self: stretch;
+  position: relative;
+}
+.letsWorkTogether {
+  margin: 0;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.thisIsA {
+  font-size: var(--body-text-size);
+  line-height: 27px;
+}
+.footerMessage {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.behanceIcon,
+.discordIcon,
+.dribbbleIcon,
+.facebookIcon,
+.nstagramIcon {
+  height: 36px;
+  width: 36px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 36px;
+  cursor: pointer;
+}
+.socialIcons {
+  flex-direction: row;
+  gap: var(--gap-smi);
+}
+.contactInfo,
+.socialIcons,
+.textInputdesktop,
+.textInputdesktop1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactInfo {
+  width: 360px;
+  flex-direction: column;
+  gap: var(--gap-41xl);
+  min-width: 360px;
+  max-width: 100%;
+}
+.textInputdesktop,
+.textInputdesktop1 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-whitesmoke);
+  align-self: stretch;
+  height: 69px;
+  flex-direction: row;
+  padding: var(--padding-2xl) var(--padding-11xl);
+  box-sizing: border-box;
+  font-family: var(--body-text);
+  font-size: var(--body-text-size);
+  color: var(--black);
+  min-width: 250px;
+}
+.blankLine,
+.blankLine1,
+.blankLine2,
+.blankLine3,
+.blankLine4,
+.typeYourMessage {
+  margin: 0;
+}
+.writeSomething {
+  height: 189px;
+  flex: 1;
+  position: relative;
+  line-height: 27px;
+  display: inline-block;
+  max-width: 100%;
+}
+.textFields1,
+.textInputdesktop2 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.textInputdesktop2 {
+  background-color: var(--color-whitesmoke);
+  flex-direction: row;
+  padding: var(--padding-2xl) var(--padding-11xl);
+  box-sizing: border-box;
+}
+.textFields1 {
+  flex-direction: column;
+  gap: var(--gap-xl);
+}
+.submit {
+  position: relative;
+  font-size: var(--text-single-300-medium-size);
+  line-height: 30px;
+  font-weight: 600;
+  font-family: var(--body-text);
+  color: var(--neutral-100);
+  text-align: center;
+  display: inline-block;
+  min-width: 71px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xl) var(--padding-xl);
+  background-color: var(--black);
+  width: 235px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.button:hover {
+  background-color: var(--color-dimgray);
+}
+.footerInfo,
+.footerInfo1,
+.textFields {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.textFields {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+  min-width: 344px;
+  font-size: var(--body-text-size);
+}
+.footerInfo,
+.footerInfo1 {
+  flex-direction: row;
+}
+.footerInfo1 {
+  flex: 1;
+  gap: var(--gap-171xl);
+}
+.footerInfo {
+  width: 1080px;
+  border-top: 2px solid var(--color-gray-400);
+  box-sizing: border-box;
+  padding: var(--padding-48xl) 0 0;
+  text-align: left;
+  font-size: var(--h2-size);
+  color: var(--black);
+  font-family: var(--body-text);
+}
+@media screen and (max-width: 1125px) {
+  .footerInfo1 {
+    gap: var(--gap-76xl);
+  }
+  .footerInfo {
+    gap: var(--gap-16xl);
+  }
+}
+@media screen and (max-width: 1025px) {
+  .letsWorkTogether {
+    font-size: var(--font-size-7xl);
+    line-height: 34px;
+  }
+  .contactInfo {
+    flex: 1;
+  }
+  .footerInfo1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .textFields {
+    gap: var(--gap-xl);
+  }
+  .footerInfo1 {
+    gap: var(--gap-28xl);
+  }
+  .footerInfo {
+    gap: var(--gap-mid);
+    padding-top: 20.000000000000227px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .letsWorkTogether {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+  .footerMessage {
+    gap: var(--gap-xl);
+  }
+  .contactInfo {
+    gap: var(--gap-11xl);
+    min-width: 100%;
+  }
+  .submit {
+    font-size: var(--text-single-100-regular-size);
+    line-height: 24px;
+  }
+  .textFields {
+    min-width: 100%;
+  }
+  .footerInfo1 {
+    gap: var(--gap-5xl);
+  }
+}

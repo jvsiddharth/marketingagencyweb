@@ -1,0 +1,128 @@
+.title {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 1px;
+  line-height: 36px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.paragraph {
+  width: 315px;
+  position: relative;
+  line-height: 26px;
+  display: none;
+}
+.coloredText {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0;
+}
+.paragraph1 {
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+  font-weight: 600;
+}
+.coloredText1 {
+  align-self: stretch;
+  background-color: var(--color-seagreen);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0;
+  color: var(--color-lavenderblush-200);
+}
+.paragraph2 {
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+}
+.coloredText2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0;
+}
+.paragraph3 {
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+  font-weight: 600;
+}
+.coloredText3 {
+  align-self: stretch;
+  background-color: var(--color-seagreen);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0;
+  color: var(--color-lavenderblush-200);
+}
+.availableForProjects,
+.projectsIncludeRocknroll {
+  margin: 0;
+}
+.paragraph4 {
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+}
+.coloredText4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0;
+}
+.bodyText1 {
+  align-self: stretch;
+  font-size: var(--text-single-100-regular-size);
+}
+.bodyText,
+.bodyText1,
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text {
+  align-self: stretch;
+  gap: var(--gap-41xl);
+}
+.bodyText {
+  flex: 1;
+}
+.body {
+  align-self: stretch;
+  background-color: var(--neutral-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-101xl) var(--padding-11xl);
+  text-align: left;
+  font-size: var(--headings-typography-size-3-size);
+  color: var(--color-gray-1100);
+  font-family: var(--body-text);
+}
+.pxAboutPage {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}

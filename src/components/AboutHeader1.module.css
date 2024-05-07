@@ -1,0 +1,30 @@
+.bio,
+.fatherOf3 {
+  margin: 0;
+}
+.bioText {
+  align-self: stretch;
+  position: relative;
+  line-height: 27px;
+}
+.aboutHeader,
+.aboutHeader1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.aboutHeader1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-59xl);
+}
+.aboutHeader {
+  align-self: stretch;
+  background-color: var(--color-lavenderblush-100);
+  flex-direction: row;
+  padding: var(--padding-101xl) var(--padding-11xl);
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--black);
+  font-family: var(--body-text);
+}

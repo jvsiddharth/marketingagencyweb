@@ -1,0 +1,41 @@
+.howDoI {
+  width: 296px;
+  position: relative;
+  line-height: 36px;
+  font-weight: 500;
+  display: inline-block;
+}
+.howDoISignUp {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-3xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.materialSymbolsaddCircleRoIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.signUpBanner {
+  width: 616px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-aboreto);
+}
+@media screen and (max-width: 450px) {
+  .howDoI {
+    font-size: var(--font-size-base);
+    line-height: 29px;
+  }
+}

@@ -1,0 +1,113 @@
+.landingPageChild,
+.mainContainerIcon {
+  width: 367px;
+  height: 240px;
+  position: absolute;
+  margin: 0 !important;
+  top: 237px;
+  right: 361.9px;
+  border-radius: var(--br-100xl-5);
+  object-fit: contain;
+}
+.mainContainerIcon {
+  width: 241px;
+  right: 120.9px;
+}
+.outputAggregator {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-103xl);
+  box-sizing: border-box;
+  gap: 84px;
+  max-width: 100%;
+}
+.embraceInc {
+  width: 272px;
+}
+.embraceInc,
+.privacyPolicy,
+.termsOfUse {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+}
+.termsOfUse {
+  white-space: pre-wrap;
+  min-width: 84px;
+}
+.privacyPolicy {
+  min-width: 88px;
+}
+.reflectTransform {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 125px;
+}
+.footer,
+.landingPage {
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-black);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-31xl) 100px 49px;
+  gap: var(--gap-xl);
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-aboreto);
+}
+.landingPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1100px) {
+  .outputAggregator {
+    padding-bottom: var(--padding-60xl);
+    box-sizing: border-box;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .outputAggregator {
+    gap: var(--gap-23xl);
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+  .footer {
+    padding-left: var(--padding-31xl);
+    padding-right: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .outputAggregator {
+    gap: var(--gap-2xl);
+  }
+  .reflectTransform {
+    gap: var(--gap-43xl);
+  }
+  .footer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

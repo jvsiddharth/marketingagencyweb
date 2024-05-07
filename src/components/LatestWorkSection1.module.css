@@ -1,0 +1,25 @@
+.latestWork {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.latestWorkSection,
+.workCardsMobile {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+}
+.latestWorkSection {
+  background-color: var(--neutral-100);
+  padding: var(--padding-21xl) var(--padding-11xl);
+  text-align: center;
+  font-size: var(--h2-size);
+  color: var(--black);
+  font-family: var(--body-text);
+}

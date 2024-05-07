@@ -1,0 +1,90 @@
+.thisIsA {
+  align-self: stretch;
+  position: relative;
+  line-height: 30px;
+  font-weight: 600;
+}
+.authorImagesIcon {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.starIcon,
+.starIcon1,
+.starIcon2,
+.starIcon3,
+.starIcon4 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  min-height: 20px;
+}
+.rateStars {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.gemmaNolen,
+.google {
+  margin: 0;
+}
+.gemmaNolenGoogleContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 27px;
+}
+.rate {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.clientCard,
+.clientCardMobile,
+.clientInfo,
+.rate {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.clientInfo {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  font-size: var(--body-text-size);
+}
+.clientCard,
+.clientCardMobile {
+  flex: 1;
+}
+.clientCard {
+  flex-direction: column;
+  gap: var(--gap-61xl);
+}
+.clientCardMobile {
+  background-color: var(--color-floralwhite);
+  border: 1.5px solid var(--color-khaki);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-9xl) var(--padding-2xl) var(--padding-9xl)
+    var(--padding-9xl);
+  min-width: 236px;
+  text-align: left;
+  font-size: var(--text-single-300-medium-size);
+  color: var(--black);
+  font-family: var(--body-text);
+}
+@media screen and (max-width: 450px) {
+  .thisIsA {
+    font-size: var(--text-single-100-regular-size);
+    line-height: 24px;
+  }
+  .clientCard {
+    gap: var(--gap-21xl);
+  }
+}

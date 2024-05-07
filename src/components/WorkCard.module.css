@@ -1,0 +1,46 @@
+.imageIcon {
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.imageIcon,
+.projectTitle,
+.uiArtDrection {
+  align-self: stretch;
+  position: relative;
+}
+.projectTitle {
+  line-height: 30px;
+  font-weight: 600;
+}
+.uiArtDrection {
+  font-size: var(--body-text-size);
+  line-height: 27px;
+}
+.headlineSubhead,
+.workCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.headlineSubhead {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+}
+.workCard {
+  height: 407px;
+  gap: var(--gap-6xl);
+  text-align: left;
+  font-size: var(--text-single-300-medium-size);
+  color: var(--black);
+  font-family: var(--body-text);
+}
+@media screen and (max-width: 450px) {
+  .projectTitle {
+    font-size: var(--text-single-100-regular-size);
+    line-height: 24px;
+  }
+}

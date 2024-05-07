@@ -1,0 +1,241 @@
+.footerTermsofUse {
+  width: 181px;
+  height: 86px;
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: inline-block;
+}
+.moreRevenuesFor {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--color-gray-500);
+  z-index: 1;
+}
+.footerTermsofUsePrivacypoliParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div {
+  width: 119px;
+  height: 86px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.b,
+.div {
+  text-transform: capitalize;
+}
+.brandsTrustUsContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--color-gray-500);
+  z-index: 1;
+}
+.frameGroup,
+.parent {
+  width: 155px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  width: 215px;
+  gap: var(--gap-23xl);
+}
+.audiencesReached,
+.k {
+  position: relative;
+  display: inline-block;
+}
+.k {
+  height: 86px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.audiencesReached {
+  width: 155px;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--color-gray-500);
+  z-index: 1;
+}
+.alignment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div1,
+.worldwideAwards {
+  position: relative;
+  text-transform: capitalize;
+}
+.div1 {
+  width: 116px;
+  height: 86px;
+  font-weight: 600;
+  display: inline-block;
+}
+.worldwideAwards {
+  align-self: stretch;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--color-gray-500);
+  z-index: 1;
+}
+.alignment1 {
+  width: 169px;
+}
+.alignment1,
+.anchors,
+.connectors {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.anchors {
+  gap: var(--gap-22xl);
+}
+.connectors {
+  padding: var(--padding-12xs) var(--padding-12xl) 0 0;
+}
+.commitments,
+.weAreCommitted {
+  position: relative;
+  font-weight: 500;
+}
+.commitments {
+  margin: 0;
+  width: 502px;
+  height: 86px;
+  font-size: inherit;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.weAreCommitted {
+  align-self: stretch;
+  font-size: var(--font-size-lg);
+  line-height: 32px;
+  color: var(--color-gray-500);
+}
+.padding {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.learnMore {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 105px;
+  white-space: nowrap;
+}
+.vectorIcon {
+  width: 14.9px;
+  height: 13.1px;
+  position: relative;
+  z-index: 1;
+}
+.opacity {
+  flex-direction: column;
+  padding: var(--padding-7xs) 0 0;
+}
+.effects,
+.opacity,
+.positionConstraints {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.effects {
+  flex-direction: row;
+  font-size: var(--font-size-lg);
+  color: var(--color-mediumslateblue-200);
+}
+.positionConstraints {
+  width: 576px;
+  flex-direction: column;
+  gap: var(--gap-43xl);
+  max-width: 100%;
+  color: var(--color-black);
+}
+.frameParent,
+.landingPageInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1185px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.landingPageInner {
+  width: 1427px;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-218xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-aboreto);
+}
+@media screen and (max-width: 1100px) {
+  .frameParent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  .commitments,
+  .div,
+  .div1,
+  .footerTermsofUse,
+  .k {
+    font-size: var(--font-size-32xl);
+  }
+  .positionConstraints {
+    gap: var(--gap-12xl);
+  }
+  .landingPageInner {
+    padding-bottom: var(--padding-135xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .commitments,
+  .div,
+  .div1,
+  .footerTermsofUse,
+  .k {
+    font-size: var(--font-size-19xl);
+  }
+  .positionConstraints {
+    gap: var(--gap-mini);
+  }
+}

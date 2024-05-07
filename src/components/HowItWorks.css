@@ -1,0 +1,31 @@
+.how-it-works-container {
+    padding: 20px;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .steps-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .step {
+    width: calc(33.33% - 20px);
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .step-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .step-description {
+    font-size: 16px;
+  }
+  

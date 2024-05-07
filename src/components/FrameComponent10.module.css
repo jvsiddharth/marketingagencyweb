@@ -1,0 +1,73 @@
+.heroiconsSolidlightningBolt {
+  height: 46px;
+  width: 46px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.majesticonsdollarCircle {
+  border-radius: var(--br-5xl);
+  background-color: var(--color-mediumslateblue-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xl);
+}
+.discovery,
+.weMeetWith {
+  position: relative;
+  font-weight: 500;
+}
+.discovery {
+  margin: 0;
+  width: 179px;
+  height: 43px;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-family: inherit;
+  display: inline-block;
+}
+.weMeetWith {
+  align-self: stretch;
+  font-size: var(--font-size-base);
+  line-height: 32px;
+  color: var(--color-gray-500);
+}
+.discoveryParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  min-width: 294px;
+  max-width: 100%;
+}
+.majesticonsdollarCircleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-aboreto);
+}
+@media screen and (max-width: 750px) {
+  .discovery {
+    font-size: var(--font-size-7xl);
+  }
+  .majesticonsdollarCircleParent {
+    flex-wrap: wrap;
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .discovery {
+    font-size: var(--font-size-lgi);
+  }
+}

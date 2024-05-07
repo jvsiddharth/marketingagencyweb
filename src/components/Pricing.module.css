@@ -1,0 +1,1561 @@
+.pricing {
+    position: relative;
+    letter-spacing: 0.1em;
+    line-height: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    min-width: 86px;
+  }
+  .checkmarkShape {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+    color: var(--primary-color-1);
+  }
+  .affordablePricingPlans {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    line-height: 62px;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .loremIpsumDolor {
+    flex: 1;
+    position: relative;
+    line-height: 30px;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .affordablePricingPlansParent,
+  .loremIpsumDolorSitAmetCoWrapper {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .loremIpsumDolorSitAmetCoWrapper {
+    flex-direction: row;
+    padding: 0 var(--padding-7xs) 0 4px;
+    font-size: var(--text-single-200-regular-size);
+    color: var(--neutral-600);
+  }
+  .affordablePricingPlansParent {
+    flex-direction: column;
+    padding: 0 0 var(--padding-lgi);
+    gap: var(--gap-xs);
+    text-align: center;
+    font-size: var(--headings-typography-size-11-size);
+  }
+  .howManyUsers {
+    position: relative;
+    line-height: 30px;
+  }
+  .howManyUsersYouHaveWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-2xs) 0 0;
+  }
+  .b,
+  .numberChild {
+    position: relative;
+  }
+  .numberChild {
+    height: 52px;
+    width: 102px;
+    border-radius: var(--br-mini);
+    background-color: var(--neutral-100);
+    border: 1px solid var(--neutral-400);
+    box-sizing: border-box;
+    display: none;
+  }
+  .b {
+    line-height: 22px;
+    display: inline-block;
+    min-width: 22px;
+    z-index: 1;
+  }
+  .number {
+    border-radius: var(--br-mini);
+    background-color: var(--neutral-100);
+    border: 1px solid var(--neutral-400);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-smi) var(--padding-21xl);
+    font-size: var(--text-single-300-medium-size);
+  }
+  .users {
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    min-width: 49px;
+  }
+  .frameGroup,
+  .usersWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .usersWrapper {
+    flex-direction: column;
+    padding: var(--padding-base) 0 0;
+  }
+  .frameGroup {
+    flex-direction: row;
+    gap: var(--gap-xs);
+    max-width: 100%;
+  }
+  .frameDiv {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+    box-sizing: border-box;
+  }
+  .checkmarkShapeParent,
+  .frameContainer,
+  .frameDiv {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .checkmarkShapeParent {
+    width: 589px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-8xl);
+  }
+  .frameContainer {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-3xl) 0 var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .pricingCardChild {
+    width: 38px;
+    height: 38px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--primary-color-1);
+    display: none;
+  }
+  .logoShapeChild,
+  .squarepaperPlaneIcon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .logoShapeChild {
+    top: 55px;
+    left: 55px;
+    border-radius: 50%;
+    background-color: var(--color-cornflowerblue);
+    width: 38px;
+    height: 38px;
+    transform: rotate(-180deg);
+    transform-origin: 0 0;
+    z-index: 1;
+  }
+  .logoShape {
+    height: 72px;
+    width: 72px;
+    position: relative;
+  }
+  .price,
+  .subtitle {
+    position: relative;
+    display: inline-block;
+  }
+  .subtitle {
+    line-height: 20px;
+    font-weight: 500;
+    min-width: 123px;
+  }
+  .price {
+    font-size: var(--headings-typography-size-3-size);
+    line-height: 35px;
+    color: var(--neutral-800);
+    min-width: 64px;
+  }
+  .subtitleParent {
+    align-self: stretch;
+    flex-direction: column;
+  }
+  .logoContainer,
+  .logoContainerInner,
+  .logoContainerWrapper,
+  .subtitleParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .logoContainerInner {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-7xs) 0 0;
+  }
+  .logoContainer,
+  .logoContainerWrapper {
+    flex-direction: row;
+  }
+  .logoContainer {
+    flex: 1;
+    gap: var(--gap-lg);
+  }
+  .logoContainerWrapper {
+    width: 293px;
+    padding: 0 var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .paragraph {
+    flex: 1;
+    position: relative;
+    line-height: 30px;
+  }
+  .paragraphWrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-22xl) 0 var(--padding-21xl);
+  }
+  .spacers {
+    width: 40px;
+    flex: 1;
+    position: relative;
+    background-color: var(--color-gray-1000);
+  }
+  .spacersWrapper {
+    height: 363px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-2xs) 0 0;
+    box-sizing: border-box;
+  }
+  .price1,
+  .spacer {
+    position: relative;
+  }
+  .price1 {
+    line-height: 66px;
+    display: inline-block;
+    min-width: 102px;
+    white-space: nowrap;
+  }
+  .spacer {
+    height: 5.6px;
+    width: 6px;
+    background-color: var(--neutral-100);
+    opacity: 0;
+  }
+  .spacerWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-5xs) 0 var(--padding-5xs-6);
+  }
+  .monthly {
+    position: relative;
+    line-height: 22px;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 87px;
+  }
+  .frameParent5 {
+    flex-direction: column;
+    gap: var(--gap-mini-2);
+  }
+  .frameParent5,
+  .frameWrapper1,
+  .priceParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameWrapper1 {
+    flex-direction: column;
+    padding: var(--padding-smi-1) 0 0;
+    font-size: var(--text-single-300-medium-size);
+    color: var(--neutral-600);
+  }
+  .priceParent {
+    flex-direction: row;
+    gap: var(--gap-4xs);
+  }
+  .text200 {
+    position: relative;
+    line-height: 20px;
+  }
+  .filledIconscheckCircle {
+    cursor: pointer;
+    margin: 0;
+    height: 26px;
+    width: 26px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .text2001 {
+    position: relative;
+    line-height: 20px;
+  }
+  .iconsListItem,
+  .listItem200 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .listItem200 {
+    align-items: center;
+    gap: var(--gap-smi);
+  }
+  .iconsListItem {
+    align-items: flex-start;
+  }
+  .filledIconscheckCircle1 {
+    cursor: pointer;
+    margin: 0;
+    height: 26px;
+    width: 26px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .text2002 {
+    position: relative;
+    line-height: 20px;
+  }
+  .iconsListItem1,
+  .listItem2001 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .listItem2001 {
+    flex: 1;
+    align-items: center;
+    gap: var(--gap-smi);
+  }
+  .iconsListItem1 {
+    align-self: stretch;
+    align-items: flex-start;
+  }
+  .filledIconscheckCircle2 {
+    cursor: pointer;
+    margin: 0;
+    height: 26px;
+    width: 26px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .text2003 {
+    position: relative;
+    line-height: 20px;
+  }
+  .iconsListItem2,
+  .listItem2002 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .listItem2002 {
+    align-items: center;
+    gap: var(--gap-sm);
+  }
+  .iconsListItem2 {
+    align-items: flex-start;
+  }
+  .filledIconscheckCircle3 {
+    cursor: pointer;
+    margin: 0;
+    height: 26px;
+    width: 26px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .text2004 {
+    position: relative;
+    line-height: 20px;
+  }
+  .iconsListItem3,
+  .listItem2003 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .listItem2003 {
+    align-items: center;
+    gap: var(--gap-sm);
+  }
+  .iconsListItem3 {
+    align-items: flex-start;
+  }
+  .px {
+    align-self: stretch;
+    gap: var(--gap-base);
+  }
+  .frameParent4,
+  .px,
+  .text200Parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .text200Parent {
+    align-self: stretch;
+    gap: var(--gap-5xl);
+    font-size: var(--text-single-200-regular-size);
+  }
+  .frameParent4 {
+    width: 280px;
+    gap: var(--gap-mid);
+  }
+  .lineRoundedsearchIcon {
+    height: 18px;
+    width: 18px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .buttonText {
+    position: relative;
+    font-size: var(--text-single-200-regular-size);
+    line-height: 20px;
+    display: inline-block;
+    font-family: var(--text-single-100-regular);
+    color: var(--neutral-100);
+    text-align: center;
+    min-width: 102px;
+    white-space: nowrap;
+  }
+  .lineRoundedarrowRight {
+    height: 16px;
+    width: 16px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .masterPrimaryButton {
+    flex: 1;
+    border-radius: var(--br-77xl);
+    background-color: var(--primary-color-1);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--padding-7xl) var(--padding-xl);
+    gap: var(--gap-7xs);
+  }
+  .frameParent3,
+  .primaryButton {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .primaryButton {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    align-self: stretch;
+    flex-direction: row;
+    z-index: 1;
+  }
+  .frameParent3 {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-18xl);
+    min-width: 200px;
+  }
+  .spacers1 {
+    width: 40px;
+    flex: 1;
+    position: relative;
+    background-color: var(--color-gray-1000);
+  }
+  .spacersContainer {
+    height: 363px;
+    flex-direction: column;
+    padding: var(--padding-2xs) 0 0;
+    box-sizing: border-box;
+  }
+  .frameParent1,
+  .frameParent2,
+  .pricingCard,
+  .spacersContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameParent2 {
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    font-size: var(--headings-typography-size-1-size);
+    color: var(--neutral-800);
+  }
+  .frameParent1,
+  .pricingCard {
+    flex-direction: column;
+  }
+  .frameParent1 {
+    align-self: stretch;
+    gap: var(--gap-smi);
+  }
+  .pricingCard {
+    width: 394px;
+    box-shadow: var(--general-shadow-02);
+    border-radius: var(--br-5xl);
+    background-color: var(--neutral-100);
+    border: 1px solid var(--neutral-300);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    padding: var(--padding-29xl) var(--padding-11xs) var(--padding-38xl);
+    gap: var(--gap-lg);
+  }
+  .backgroundPattern,
+  .squarepaperPlaneIcon1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .backgroundPattern {
+    background-color: var(--primary-color-1);
+    width: 18.5px;
+    height: 38px;
+  }
+  .frameChild,
+  .frameItem {
+    position: absolute;
+    left: 18.5px;
+    width: 19.5px;
+  }
+  .frameChild {
+    top: 0;
+    background-color: var(--color-cornflowerblue);
+    height: 38px;
+  }
+  .frameItem {
+    top: 18.5px;
+    background-color: #dcd8ff;
+    height: 19.5px;
+    z-index: 1;
+  }
+  .backgroundPatternParent {
+    position: absolute;
+    top: 17px;
+    left: 17px;
+    width: 38px;
+    height: 38px;
+    z-index: 1;
+  }
+  .squarepaperPlaneParent {
+    align-self: stretch;
+    height: 72px;
+    position: relative;
+  }
+  .frameWrapper2 {
+    width: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-lg) 0 0;
+    box-sizing: border-box;
+  }
+  .price2,
+  .subtitle1 {
+    position: relative;
+    display: inline-block;
+  }
+  .subtitle1 {
+    line-height: 20px;
+    font-weight: 500;
+    min-width: 104px;
+  }
+  .price2 {
+    font-size: var(--headings-typography-size-3-size);
+    line-height: 35px;
+    color: var(--neutral-100);
+    text-align: left;
+    min-width: 40px;
+  }
+  .frameWrapper3,
+  .subtitleGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .subtitleGroup {
+    align-self: stretch;
+  }
+  .frameWrapper3 {
+    flex: 1;
+    padding: var(--padding-5xl) var(--padding-3xs) 0 0;
+    box-sizing: border-box;
+    min-width: 74px;
+  }
+  .frameInner {
+    height: 40px;
+    width: 98px;
+    position: relative;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-gray-900);
+    display: none;
+  }
+  .popular {
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 15px;
+    font-family: var(--text-single-100-regular);
+    color: var(--neutral-100);
+    text-align: left;
+    display: inline-block;
+    min-width: 50px;
+    z-index: 1;
+  }
+  .rectangleParent {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-xs) var(--padding-5xl) var(--padding-smi);
+    background-color: var(--color-gray-900);
+    border-radius: var(--br-3xs);
+    justify-content: flex-start;
+  }
+  .rectangleParent:hover {
+    background-color: rgba(230, 230, 230, 0.2);
+  }
+  .frameParent6,
+  .pricingCardInner,
+  .rectangleParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .frameParent6 {
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: var(--gap-lg);
+  }
+  .pricingCardInner {
+    width: 376px;
+    justify-content: flex-end;
+    padding: 0 var(--padding-9xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .paragraph1 {
+    flex: 1;
+    position: relative;
+    line-height: 30px;
+  }
+  .paragraphContainer {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-22xl) 0 var(--padding-21xl);
+  }
+  .spacers2 {
+    width: 40px;
+    flex: 1;
+    position: relative;
+    background-color: var(--color-gray-1000);
+  }
+  .spacersFrame {
+    height: 363px;
+    width: 40px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-2xs) 0 0;
+    box-sizing: border-box;
+  }
+  .price3 {
+    position: relative;
+    line-height: 66px;
+    display: inline-block;
+    min-width: 121px;
+    white-space: nowrap;
+  }
+  .spacer1 {
+    height: 5.6px;
+    width: 6px;
+    position: relative;
+    background-color: var(--neutral-100);
+    opacity: 0;
+  }
+  .spacerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-5xs) 0 var(--padding-5xs-6);
+  }
+  .monthly1 {
+    position: relative;
+    line-height: 22px;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 87px;
+  }
+  .frameParent11 {
+    flex-direction: column;
+    gap: var(--gap-mini-2);
+  }
+  .frameParent11,
+  .frameWrapper4,
+  .priceGroup {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameWrapper4 {
+    flex-direction: column;
+    padding: var(--padding-smi-1) 0 0;
+    font-size: var(--text-single-300-medium-size);
+    color: var(--neutral-400);
+  }
+  .priceGroup {
+    flex-direction: row;
+    gap: var(--gap-4xs);
+  }
+  .text2005 {
+    position: relative;
+    line-height: 20px;
+  }
+  .filledIconscheckCircle4 {
+    cursor: pointer;
+    margin: 0;
+    height: 26px;
+    width: 26px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .text2006 {
+    position: relative;
+    line-height: 20px;
+  }
+  .iconsListItem4,
+  .listItem2004 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .listItem2004 {
+    align-items: center;
+    gap: var(--gap-smi);
+  }
+  .iconsListItem4 {
+    align-items: flex-start;
+  }
+  .filledIconscheckCircle5 {
+    cursor: pointer;
+    margin: 0;
+    height: 26px;
+    width: 26px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .text2007 {
+    position: relative;
+    line-height: 20px;
+  }
+  .iconsListItem5,
+  .listItem2005 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .listItem2005 {
+    flex: 1;
+    align-items: center;
+    gap: var(--gap-sm);
+  }
+  .iconsListItem5 {
+    align-self: stretch;
+    align-items: flex-start;
+  }
+  .filledIconscheckCircle6 {
+    cursor: pointer;
+    margin: 0;
+    height: 26px;
+    width: 26px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .text2008 {
+    position: relative;
+    line-height: 20px;
+  }
+  .iconsListItem6,
+  .listItem2006 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .listItem2006 {
+    align-items: center;
+    gap: var(--gap-sm);
+  }
+  .iconsListItem6 {
+    align-items: flex-start;
+  }
+  .filledIconscheckCircle7 {
+    cursor: pointer;
+    margin: 0;
+    height: 26px;
+    width: 26px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .text2009 {
+    position: relative;
+    line-height: 20px;
+  }
+  .iconsListItem7,
+  .listItem2007 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .listItem2007 {
+    align-items: center;
+    gap: var(--gap-smi);
+  }
+  .iconsListItem7 {
+    align-items: flex-start;
+  }
+  .px1 {
+    align-self: stretch;
+    gap: var(--gap-base);
+    color: var(--neutral-400);
+  }
+  .frameParent10,
+  .px1,
+  .text200Group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .text200Group {
+    align-self: stretch;
+    gap: var(--gap-5xl);
+    font-size: var(--text-single-200-regular-size);
+  }
+  .frameParent10 {
+    width: 293px;
+    gap: var(--gap-mid);
+  }
+  .lineRoundedsearchIcon1 {
+    height: 18px;
+    width: 18px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .buttonText1 {
+    position: relative;
+    font-size: var(--text-single-200-regular-size);
+    line-height: 20px;
+    display: inline-block;
+    font-family: var(--text-single-100-regular);
+    color: var(--primary-color-1);
+    text-align: center;
+    min-width: 102px;
+    white-space: nowrap;
+  }
+  .lineRoundedarrowRight1 {
+    height: 16px;
+    width: 16px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .masterPrimaryButton1 {
+    flex: 1;
+    border-radius: var(--br-77xl);
+    background-color: var(--neutral-100);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--padding-7xl) var(--padding-xl);
+    gap: var(--gap-7xs);
+  }
+  .frameParent9,
+  .primaryButton1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .primaryButton1 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    align-self: stretch;
+    flex-direction: row;
+    z-index: 1;
+  }
+  .frameParent9 {
+    width: 308px;
+    flex-shrink: 0;
+    flex-direction: column;
+    gap: var(--gap-18xl);
+  }
+  .spacers3 {
+    width: 40px;
+    flex: 1;
+    position: relative;
+    background-color: var(--color-gray-1000);
+  }
+  .frameParent8,
+  .spacersWrapper1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .spacersWrapper1 {
+    height: 363px;
+    width: 40px;
+    flex-shrink: 0;
+    flex-direction: column;
+    padding: var(--padding-2xs) 0 0;
+    box-sizing: border-box;
+  }
+  .frameParent8 {
+    width: 388px;
+    overflow-x: auto;
+    flex-direction: row;
+    max-width: 100%;
+    font-size: var(--headings-typography-size-1-size);
+    color: var(--neutral-100);
+  }
+  .frameParent7,
+  .pricingCard1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .frameParent7 {
+    align-self: stretch;
+    align-items: flex-start;
+    gap: var(--gap-smi);
+    max-width: 100%;
+    text-align: left;
+    color: var(--neutral-400);
+  }
+  .pricingCard1 {
+    width: 394px;
+    box-shadow: var(--general-shadow-02);
+    border-radius: var(--br-5xl);
+    background-color: var(--primary-color-1);
+    border: 1px solid var(--neutral-300);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    align-items: flex-end;
+    padding: var(--padding-11xl) var(--padding-11xs) var(--padding-38xl);
+    gap: var(--gap-lg);
+    text-align: center;
+    color: var(--neutral-300);
+  }
+  .groupIcon,
+  .squarepaperPlaneIcon2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .groupIcon {
+    top: 13px;
+    left: 14.6px;
+    width: 42.6px;
+    height: 45.2px;
+    z-index: 1;
+  }
+  .squarepaperPlaneGroup {
+    height: 72px;
+    width: 72px;
+    position: relative;
+  }
+  .subtitle2 {
+    position: relative;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  .price4 {
+    position: relative;
+    font-size: var(--headings-typography-size-3-size);
+    line-height: 35px;
+    display: inline-block;
+    color: var(--neutral-800);
+    min-width: 123px;
+  }
+  .subtitleContainer {
+    align-self: stretch;
+    flex-direction: column;
+  }
+  .frameParent12,
+  .frameWrapper5,
+  .pricingCardInner1,
+  .subtitleContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameWrapper5 {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-7xs) 0 0;
+    box-sizing: border-box;
+    min-width: 102px;
+  }
+  .frameParent12,
+  .pricingCardInner1 {
+    flex-direction: row;
+  }
+  .frameParent12 {
+    flex: 1;
+    flex-wrap: wrap;
+    gap: var(--gap-lg);
+  }
+  .pricingCardInner1 {
+    width: 327px;
+    padding: 0 var(--padding-21xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .paragraph2 {
+    flex: 1;
+    position: relative;
+    line-height: 30px;
+  }
+  .paragraphFrame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-22xl) 0 var(--padding-21xl);
+  }
+  .spacers4 {
+    width: 40px;
+    flex: 1;
+    position: relative;
+    background-color: var(--color-gray-1000);
+  }
+  .spacersWrapper2 {
+    height: 363px;
+    width: 40px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-2xs) 0 0;
+    box-sizing: border-box;
+  }
+  .price5 {
+    position: relative;
+    line-height: 66px;
+    white-space: nowrap;
+  }
+  .spacer2 {
+    height: 5.6px;
+    width: 6px;
+    position: relative;
+    background-color: var(--neutral-100);
+    opacity: 0;
+  }
+  .spacerFrame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-5xs) 0 var(--padding-5xs-6);
+  }
+  .monthly2 {
+    position: relative;
+    line-height: 22px;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 87px;
+  }
+  .frameParent17 {
+    flex-direction: column;
+    gap: var(--gap-mini-2);
+  }
+  .frameParent17,
+  .frameWrapper6,
+  .priceContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameWrapper6 {
+    flex-direction: column;
+    padding: var(--padding-smi-1) 0 0;
+    font-size: var(--text-single-300-medium-size);
+    color: var(--neutral-600);
+  }
+  .priceContainer {
+    flex-direction: row;
+    gap: var(--gap-4xs);
+  }
+  .text20010 {
+    position: relative;
+    line-height: 20px;
+  }
+  .filledIconscheckCircle8 {
+    cursor: pointer;
+    margin: 0;
+    height: 26px;
+    width: 26px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 26px;
+  }
+  .text20011 {
+    position: relative;
+    line-height: 20px;
+  }
+  .text200Wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+  }
+  .listItem2008 {
+    gap: var(--gap-smi);
+  }
+  .iconsListItem8,
+  .listItem2008 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .filledIconscheckCircle9 {
+    cursor: pointer;
+    margin: 0;
+    height: 26px;
+    width: 26px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 26px;
+  }
+  .text20012 {
+    position: relative;
+    line-height: 20px;
+  }
+  .iconsListItem9,
+  .listItem2009,
+  .text200Frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .text200Frame {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-10xs) 0 0;
+  }
+  .iconsListItem9,
+  .listItem2009 {
+    flex-direction: row;
+  }
+  .listItem2009 {
+    flex: 1;
+    gap: var(--gap-sm);
+  }
+  .iconsListItem9 {
+    align-self: stretch;
+  }
+  .filledIconscheckCircle10 {
+    cursor: pointer;
+    margin: 0;
+    height: 26px;
+    width: 26px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 26px;
+  }
+  .text20013 {
+    position: relative;
+    line-height: 20px;
+  }
+  .text200Wrapper1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+  }
+  .listItem20010 {
+    gap: var(--gap-sm);
+  }
+  .iconsListItem10,
+  .listItem20010 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .filledIconscheckCircle11 {
+    cursor: pointer;
+    margin: 0;
+    height: 26px;
+    width: 26px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 26px;
+  }
+  .text20014 {
+    position: relative;
+    line-height: 20px;
+  }
+  .text200Wrapper2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+  }
+  .listItem20011 {
+    gap: var(--gap-sm);
+  }
+  .iconsListItem11,
+  .listItem20011 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .px2 {
+    align-self: stretch;
+    gap: var(--gap-base);
+  }
+  .frameParent16,
+  .px2,
+  .text200Container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .text200Container {
+    align-self: stretch;
+    gap: var(--gap-5xl);
+    font-size: var(--text-single-200-regular-size);
+  }
+  .frameParent16 {
+    width: 298px;
+    gap: var(--gap-mid);
+  }
+  .lineRoundedsearchIcon2 {
+    height: 18px;
+    width: 18px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .buttonText2 {
+    position: relative;
+    font-size: var(--text-single-200-regular-size);
+    line-height: 20px;
+    display: inline-block;
+    font-family: var(--text-single-100-regular);
+    color: var(--neutral-100);
+    text-align: center;
+    min-width: 102px;
+    white-space: nowrap;
+  }
+  .lineRoundedarrowRight2 {
+    height: 16px;
+    width: 16px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .masterPrimaryButton2 {
+    flex: 1;
+    border-radius: var(--br-77xl);
+    background-color: var(--primary-color-1);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--padding-7xl) var(--padding-xl);
+    gap: var(--gap-7xs);
+  }
+  .frameParent15,
+  .primaryButton2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .primaryButton2 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    align-self: stretch;
+    flex-direction: row;
+    z-index: 1;
+  }
+  .frameParent15 {
+    width: 308px;
+    flex-shrink: 0;
+    flex-direction: column;
+    gap: var(--gap-18xl);
+  }
+  .spacers5 {
+    width: 40px;
+    flex: 1;
+    position: relative;
+    background-color: var(--color-gray-1000);
+  }
+  .spacersWrapper3 {
+    height: 363px;
+    width: 40px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-2xs) 0 0;
+    box-sizing: border-box;
+  }
+  .frameParent13,
+  .frameParent14 {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frameParent14 {
+    width: 388px;
+    overflow-x: auto;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: var(--headings-typography-size-1-size);
+    color: var(--neutral-800);
+  }
+  .frameParent13 {
+    align-self: stretch;
+    flex-direction: column;
+    gap: var(--gap-smi);
+  }
+  .frameParent13,
+  .pricingCard2,
+  .signUpBtn {
+    justify-content: flex-start;
+  }
+  .pricingCard2 {
+    width: 394px;
+    box-shadow: var(--general-shadow-02);
+    border-radius: var(--br-5xl);
+    background-color: var(--neutral-100);
+    border: 1px solid var(--neutral-300);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--padding-29xl) var(--padding-11xs) var(--padding-38xl);
+    gap: var(--gap-lg);
+  }
+  .signUpBtn {
+    width: 1241px;
+    overflow-x: auto;
+    flex-direction: row;
+    gap: 29.5px;
+    color: var(--neutral-600);
+  }
+  .frameParent,
+  .frameWrapper,
+  .signUpBtn {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frameParent {
+    width: 1241px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 78px;
+    flex-shrink: 0;
+  }
+  .frameWrapper {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 0 23px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--text-single-200-regular-size);
+    color: var(--neutral-800);
+    font-family: var(--text-single-100-regular);
+  }
+  .headerParent,
+  .pricingV4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .headerParent {
+    align-self: stretch;
+    padding: 0 0 0 var(--padding-11xs);
+    gap: 57.6px;
+    max-width: 100%;
+  }
+  .pricingV4 {
+    width: 100%;
+    position: relative;
+    background-color: var(--neutral-100);
+    overflow: hidden;
+    padding: var(--padding-12xs) 0 var(--padding-12xs-2);
+    gap: var(--gap-109xl);
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1050px) {
+    .affordablePricingPlans {
+      font-size: var(--font-size-21xl);
+      line-height: 50px;
+    }
+    .price1,
+    .price3,
+    .price5 {
+      font-size: var(--font-size-24xl);
+      line-height: 53px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .frameGroup {
+      flex-wrap: wrap;
+    }
+    .pricingCard,
+    .pricingCard1,
+    .pricingCard2 {
+      padding-top: var(--padding-12xl);
+      padding-bottom: var(--padding-18xl);
+      box-sizing: border-box;
+    }
+    .pricingCard1,
+    .pricingCard2 {
+      padding-top: var(--padding-xl);
+    }
+    .pricingCard2 {
+      padding-top: var(--padding-12xl);
+    }
+    .frameParent {
+      gap: 39px;
+    }
+    .headerParent {
+      gap: var(--gap-10xl);
+    }
+    .pricingV4 {
+      gap: var(--gap-45xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .affordablePricingPlans {
+      font-size: 30px;
+      line-height: 37px;
+    }
+    .b {
+      font-size: var(--text-single-100-regular-size);
+      line-height: 18px;
+    }
+    .price {
+      font-size: var(--font-size-lgi);
+      line-height: 28px;
+    }
+    .price1 {
+      font-size: var(--font-size-13xl);
+      line-height: 40px;
+    }
+    .monthly {
+      font-size: var(--text-single-100-regular-size);
+      line-height: 18px;
+    }
+    .price2 {
+      font-size: var(--font-size-lgi);
+      line-height: 28px;
+    }
+    .price3 {
+      font-size: var(--font-size-13xl);
+      line-height: 40px;
+    }
+    .monthly1 {
+      font-size: var(--text-single-100-regular-size);
+      line-height: 18px;
+    }
+    .price4 {
+      font-size: var(--font-size-lgi);
+      line-height: 28px;
+    }
+    .price5 {
+      font-size: var(--font-size-13xl);
+      line-height: 40px;
+    }
+    .monthly2 {
+      font-size: var(--text-single-100-regular-size);
+      line-height: 18px;
+    }
+    .frameParent {
+      gap: var(--gap-lgi);
+    }
+    .pricingV4 {
+      gap: var(--gap-13xl);
+    }
+  }
+  

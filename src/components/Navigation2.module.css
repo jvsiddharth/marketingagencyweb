@@ -1,0 +1,43 @@
+.logo1 {
+  position: relative;
+  line-height: 30px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 49px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menuIcon {
+  width: 25px;
+  height: 23px;
+  position: relative;
+  cursor: pointer;
+}
+.headerTitle,
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.navigation {
+  align-self: stretch;
+  background-color: var(--neutral-100);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-6xl) var(--padding-31xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--text-single-300-medium-size);
+  color: var(--black);
+  font-family: var(--body-text);
+}

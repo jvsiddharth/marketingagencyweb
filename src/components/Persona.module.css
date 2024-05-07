@@ -1,0 +1,51 @@
+.imageIcon,
+.imageOutline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.imageIcon {
+  object-fit: cover;
+}
+.imageOutline {
+  border: 1.5px solid var(--black);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.image {
+  align-self: stretch;
+  height: 195px;
+  position: relative;
+}
+.pabloDesignero1 {
+  text-decoration: underline;
+}
+.designerUnicorn,
+.pabloDesignero {
+  margin: 0;
+}
+.designerFullNameContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 27px;
+}
+.persona {
+  width: 195px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  min-width: 195px;
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--black);
+  font-family: var(--body-text);
+}
+@media screen and (max-width: 725px) {
+  .persona {
+    flex: 1;
+  }
+}

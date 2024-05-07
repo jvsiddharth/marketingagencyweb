@@ -1,0 +1,156 @@
+.imagePlaceholderIcon {
+  width: 130px;
+  height: 130px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.mainTitle,
+.thisIsA {
+  align-self: stretch;
+  position: relative;
+}
+.mainTitle {
+  margin: 0;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.thisIsA {
+  font-size: var(--body-text-size);
+  line-height: 27px;
+}
+.headlineSubhead {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.skill2 {
+  gap: var(--gap-37xl);
+}
+.skill,
+.skill1,
+.skill2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.imagePlaceholderIcon1 {
+  width: 130px;
+  height: 130px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.mainTitle1,
+.thisIsA1 {
+  align-self: stretch;
+  position: relative;
+}
+.mainTitle1 {
+  margin: 0;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.thisIsA1 {
+  font-size: var(--body-text-size);
+  line-height: 27px;
+}
+.headlineSubhead1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.skill5 {
+  gap: var(--gap-37xl);
+}
+.skill3,
+.skill4,
+.skill5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.imagePlaceholderIcon2 {
+  width: 130px;
+  height: 130px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.mainTitle2,
+.thisIsA2 {
+  align-self: stretch;
+  position: relative;
+}
+.mainTitle2 {
+  margin: 0;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.thisIsA2 {
+  font-size: var(--body-text-size);
+  line-height: 27px;
+}
+.headlineSubhead2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.skill8 {
+  gap: var(--gap-37xl);
+}
+.skill6,
+.skill7,
+.skill8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.skills,
+.skillsSection {
+  display: flex;
+  align-items: flex-start;
+}
+.skills {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-106xl);
+}
+.skillsSection {
+  align-self: stretch;
+  background-color: var(--neutral-100);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-131xl) var(--padding-43xl) var(--padding-131xl)
+    var(--padding-44xl);
+  z-index: 1;
+  text-align: center;
+  font-size: var(--h3-size);
+  color: var(--black);
+  font-family: var(--body-text);
+}

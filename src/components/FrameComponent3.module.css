@@ -1,0 +1,415 @@
+.whatOurClient {
+  margin: 0;
+  height: 86px;
+  width: 899px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.contactUs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-ghostwhite);
+  width: 100%;
+  height: 100%;
+}
+.biarrowLeftShortIcon {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  width: 49px;
+  height: 49px;
+  overflow: hidden;
+  z-index: 1;
+}
+.contactUsParent {
+  height: 85px;
+  flex: 1;
+  position: relative;
+}
+.frameContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-mediumslateblue-200);
+  width: 100%;
+  height: 100%;
+}
+.biarrowLeftShortIcon1 {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  width: 49px;
+  height: 49px;
+  overflow: hidden;
+  object-fit: contain;
+  z-index: 1;
+}
+.ellipseParent {
+  height: 85px;
+  flex: 1;
+  position: relative;
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  flex: 1;
+  flex-direction: row;
+}
+.frameButton,
+.frameParent,
+.frameWrapper,
+.whatOurClientSaidAboutUsParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.frameWrapper,
+.whatOurClientSaidAboutUsParent {
+  width: 190px;
+  flex-direction: column;
+  padding: var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+}
+.whatOurClientSaidAboutUsParent {
+  width: 1222px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl) 0 0;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.frameItem {
+  height: 85px;
+  width: 85px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.ameliaJoseph,
+.chiefManager {
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.ameliaJoseph {
+  margin: 0;
+  align-self: stretch;
+  height: 38px;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.chiefManager {
+  width: 137px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+}
+.ameliaJosephParent,
+.ellipseGroup,
+.frameWrapper1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ameliaJosephParent {
+  width: 320px;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+  flex-shrink: 0;
+}
+.ellipseGroup,
+.frameWrapper1 {
+  flex-direction: row;
+}
+.frameWrapper1 {
+  flex: 1;
+  padding: 0;
+}
+.ellipseGroup {
+  width: 314px;
+  gap: var(--gap-xl);
+}
+.myVisionCame {
+  width: 400px;
+  height: 128px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 32px;
+  font-weight: 500;
+  color: var(--color-gray-600);
+  display: inline-block;
+  max-width: 100%;
+}
+.frameDiv {
+  width: 513px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-mediumslateblue-200);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-xl) var(--padding-21xl)
+    var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+  max-width: 100%;
+  color: var(--color-white);
+}
+.frameInner {
+  height: 85px;
+  width: 85px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.chiefManager1,
+.jacobJoshua {
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.jacobJoshua {
+  margin: 0;
+  align-self: stretch;
+  height: 38px;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.chiefManager1 {
+  width: 137px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+}
+.jacobJoshuaParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.ellipseContainer,
+.frameWrapper2,
+.jacobJoshuaParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper2 {
+  flex: 1;
+  flex-direction: column;
+}
+.ellipseContainer {
+  width: 301px;
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.iFoundThe {
+  width: 400px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 32px;
+  font-weight: 500;
+  color: var(--color-gray-700);
+  display: inline-block;
+  max-width: 100%;
+}
+.frameParent1 {
+  width: 513px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-ghostwhite);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-21xl) var(--padding-xl) var(--padding-21xl)
+    var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+  max-width: 100%;
+}
+.ellipseIcon {
+  height: 85px;
+  width: 85px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.chiefManager2,
+.jacobJoshua1 {
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.jacobJoshua1 {
+  margin: 0;
+  align-self: stretch;
+  height: 38px;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.chiefManager2 {
+  width: 137px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+}
+.jacobJoshuaGroup {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.ellipseParent1,
+.frameWrapper3,
+.jacobJoshuaGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper3 {
+  flex: 1;
+  flex-direction: column;
+}
+.ellipseParent1 {
+  width: 301px;
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.embraceReallyNails {
+  width: 400px;
+  height: 128px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 32px;
+  font-weight: 500;
+  color: var(--color-gray-700);
+  display: inline-block;
+  max-width: 100%;
+}
+.frameParent2 {
+  width: 513px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-ghostwhite);
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: var(--padding-21xl) var(--padding-xl) var(--padding-21xl)
+    var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-lgi);
+}
+.frameGroup,
+.frameParent2,
+.testimonial,
+.testimonialWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  width: 1319px;
+  overflow-x: auto;
+  flex-direction: row;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-9xl);
+}
+.testimonial,
+.testimonialWrapper {
+  box-sizing: border-box;
+}
+.testimonial {
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-75xl) 0 var(--padding-87xl) var(--padding-101xl);
+  gap: var(--gap-39xl);
+}
+.testimonialWrapper {
+  flex-direction: row;
+  padding: 0 0 var(--padding-103xl) var(--padding-12xs);
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-aboreto);
+}
+@media screen and (max-width: 1250px) {
+  .whatOurClientSaidAboutUsParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .testimonialWrapper {
+    padding-bottom: var(--padding-60xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .whatOurClient {
+    font-size: var(--font-size-32xl);
+  }
+  .testimonial {
+    gap: var(--gap-10xl);
+    padding-left: var(--padding-41xl);
+    padding-top: var(--padding-42xl);
+    padding-bottom: var(--padding-50xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .whatOurClient {
+    font-size: var(--font-size-19xl);
+  }
+  .ameliaJoseph {
+    font-size: var(--font-size-3xl);
+  }
+  .chiefManager {
+    font-size: var(--font-size-base);
+  }
+  .jacobJoshua {
+    font-size: var(--font-size-3xl);
+  }
+  .chiefManager1 {
+    font-size: var(--font-size-base);
+  }
+  .jacobJoshua1 {
+    font-size: var(--font-size-3xl);
+  }
+  .chiefManager2 {
+    font-size: var(--font-size-base);
+  }
+  .testimonial {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .testimonialWrapper {
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}

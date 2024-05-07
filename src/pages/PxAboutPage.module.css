@@ -1,0 +1,171 @@
+.title {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 1px;
+  line-height: 36px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.paragraph {
+  height: 52px;
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  max-width: 100%;
+}
+.coloredText {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.paragraph1 {
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.coloredText1 {
+  align-self: stretch;
+  background-color: var(--color-seagreen);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  color: var(--color-lavenderblush-200);
+}
+.paragraph2 {
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  max-width: 100%;
+}
+.coloredText2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.paragraph3 {
+  flex: 1;
+  position: relative;
+  line-height: 26px;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.coloredText3 {
+  align-self: stretch;
+  background-color: var(--color-seagreen);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  color: var(--color-lavenderblush-200);
+}
+.availableForProjects,
+.projectsIncludeRocknroll {
+  margin: 0;
+}
+.paragraph4 {
+  position: relative;
+  line-height: 26px;
+}
+.bodyText1,
+.coloredText4 {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.coloredText4 {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-8xs) 0;
+}
+.bodyText1 {
+  flex-direction: column;
+  font-size: var(--text-single-100-regular-size);
+}
+.body,
+.bodyText,
+.bodyText1,
+.text {
+  display: flex;
+  max-width: 100%;
+}
+.text {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+}
+.body,
+.bodyText {
+  align-items: center;
+  justify-content: center;
+}
+.bodyText {
+  width: 880px;
+  flex-direction: column;
+}
+.body {
+  align-self: stretch;
+  background-color: var(--neutral-100);
+  flex-direction: row;
+  padding: var(--padding-101xl) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--headings-typography-size-3-size);
+  color: var(--color-gray-1100);
+  font-family: var(--body-text);
+}
+.pxAboutPage {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1000px) {
+  .bodyText,
+  .text {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 725px) {
+  .body {
+    padding-top: var(--padding-59xl);
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+}

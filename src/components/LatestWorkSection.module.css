@@ -1,0 +1,77 @@
+.myLatestWork {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 42px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.stripe1,
+.stripe2 {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-48xl-5);
+  grid-template-columns: repeat(3, minmax(236px, 1fr));
+}
+.latestWorkSection,
+.workCards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+  max-width: 100%;
+}
+.workCards {
+  width: 1080px;
+  text-align: left;
+  font-size: var(--text-single-300-medium-size);
+}
+.latestWorkSection {
+  align-self: stretch;
+  background-color: var(--neutral-100);
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--h2-size);
+  color: var(--black);
+  font-family: var(--body-text);
+}
+@media screen and (max-width: 1125px) {
+  .stripe1,
+  .stripe2 {
+    gap: var(--gap-15xl);
+  }
+  .latestWorkSection,
+  .workCards {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 1025px) {
+  .myLatestWork {
+    font-size: var(--font-size-7xl);
+    line-height: 34px;
+  }
+  .stripe1,
+  .stripe2 {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(236px, 409px));
+  }
+}
+@media screen and (max-width: 750px) {
+  .stripe1,
+  .stripe2 {
+    gap: var(--gap-mid);
+    grid-template-columns: minmax(236px, 1fr);
+  }
+}
+@media screen and (max-width: 450px) {
+  .myLatestWork {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+}

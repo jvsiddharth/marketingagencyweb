@@ -1,0 +1,124 @@
+.howItWorks,
+.weBelieveThat {
+  position: relative;
+  font-weight: 500;
+}
+.howItWorks {
+  margin: 0;
+  width: 402px;
+  height: 86px;
+  font-size: inherit;
+  letter-spacing: -1px;
+  text-transform: capitalize;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.weBelieveThat {
+  align-self: stretch;
+  font-size: var(--font-size-lg);
+  line-height: 36px;
+  color: var(--color-gray-500);
+}
+.howItWorksParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.frameChild {
+  width: 487px;
+  position: relative;
+  border-radius: var(--br-21xl);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.frameGroup {
+  width: 499px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-63xl);
+  min-width: 499px;
+}
+.frameContainer,
+.frameGroup,
+.frameParent,
+.landingPageInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameContainer {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-23xl);
+  min-width: 383px;
+  font-size: var(--font-size-13xl);
+}
+.frameParent,
+.landingPageInner {
+  flex-direction: row;
+  justify-content: center;
+}
+.frameParent {
+  width: 1200px;
+  gap: var(--gap-92xl);
+}
+.landingPageInner {
+  align-self: stretch;
+  padding: 0 var(--padding-xl) var(--padding-205xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-aboreto);
+}
+@media screen and (max-width: 1250px) {
+  .frameParent {
+    gap: var(--gap-36xl);
+  }
+}
+@media screen and (max-width: 1100px) {
+  .frameGroup {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .landingPageInner {
+    padding-bottom: var(--padding-127xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .howItWorks {
+    font-size: var(--font-size-32xl);
+  }
+  .frameGroup {
+    gap: var(--gap-22xl);
+    min-width: 100%;
+  }
+  .frameContainer {
+    gap: var(--gap-2xl);
+  }
+  .frameParent {
+    gap: var(--gap-9xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .howItWorks {
+    font-size: var(--font-size-19xl);
+  }
+  .frameContainer {
+    min-width: 100%;
+  }
+  .landingPageInner {
+    padding-bottom: var(--padding-76xl);
+    box-sizing: border-box;
+  }
+}
